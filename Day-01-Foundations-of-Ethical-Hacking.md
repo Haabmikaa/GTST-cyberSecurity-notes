@@ -205,10 +205,22 @@ Reconnaissance     Scanning       Gaining Access   Maintaining     Clearing
 > [!CAUTION]
 > Technical capability without explicit legal authorization is a federal crime under virtually all international jurisdictions.
 
-### 7.1 Key Legal Statues
-* **United States:** **CFAA (Computer Fraud and Abuse Act - 18 U.S.C. § 1030):** Prohibits unauthorized access to "protected computers". Penalties include heavy federal incarceration.
-* **United Kingdom:** **Computer Misuse Act 1990:** Outlaws unauthorized access to computer material and unauthorized acts with intent to impair computer operation.
-* **European Union:** **GDPR (General Data Protection Regulation):** Imposes strict penalties for data compromise and non-compliant handling of personally identifiable information (PII).
+### 7.1 Key Legal Statues & National Frameworks
+
+| Jurisdiction | Governing Legislation / Authority | Primary Prohibitions & Scope | Legal & Penal Consequences |
+| :--- | :--- | :--- | :--- |
+| **Ethiopia 🇪🇹** | **Computer Crime Proclamation No. 958/2016**<br>*(Supervised by INSA)* | • **Art. 3:** Illegal access to computer systems without authorization.<br>• **Art. 4:** Illegal interception of non-public computer data.<br>• **Art. 5:** System interference (malware, DoS/DDoS).<br>• **Art. 6:** Tampering with Critical Information Infrastructure (CII). | Severe criminal penalties; up to **10 to 15 years rigorous imprisonment** and substantial financial fines. |
+| **United States 🇺🇸** | **CFAA (Computer Fraud and Abuse Act - 18 U.S.C. § 1030)** | Accessing protected computers without authorization or exceeding authorized access. | Up to 10 to 20 years federal incarceration; felony prosecution. |
+| **United Kingdom 🇬🇧**| **Computer Misuse Act 1990** | Unauthorized access to computer material, unauthorized access with intent to commit offences, and acts impairing system operation. | Up to 10 years imprisonment; unlimited fines. |
+| **European Union 🇪🇺**| **GDPR (General Data Protection Regulation)** | Unlawful processing, breach, or exfiltration of Personally Identifiable Information (PII). | Regulatory administrative fines up to **€20 million or 4% of annual global turnover**. |
+
+#### Deep-Dive: Ethiopian Cyber Law (Proclamation No. 958/2016)
+In Ethiopia, cyber activities are monitored and investigated under the statutory authority of the **Information Network Security Administration (INSA)** and the Federal Police Commission:
+* **Article 3 (Illegal Access):** Anyone who intentionally accesses the whole or part of a computer system without authorization or exceeds authorized access faces imprisonment from **3 months to 3 years**, or fines up to 30,000 ETB.
+* **Article 4 (Illegal Interception):** Intercepting non-public electromagnetic emissions or computer transmissions carrying data without right carries imprisonment from **1 to 5 years**.
+* **Article 5 (Interference with Computer System):** Altering, damaging, deleting, or injecting malicious software (viruses, trojans, ransomware) that impedes operation carries rigorous imprisonment from **5 to 10 years**.
+* **Article 6 (Crimes Against Critical Infrastructure):** If the compromised system belongs to military, financial, governmental, telecommunications (Ethio Telecom), or public utility infrastructure, penalties escalate to **10 to 15 years rigorous imprisonment**.
+* **Institutional Mandate of INSA:** Under Proclamation No. 808/2013 and subsequent enactments, INSA operates as Ethiopia's national cybersecurity defense agency, responsible for setting cryptographic standards, conducting cyber threat monitoring, auditing critical infrastructure, and serving as the national CERT/CSIRT.
 
 ### 7.2 The Mandatory Rules of Engagement (RoE) Document
 Before firing a single ping packet against a target client, an ethical hacker must hold a signed **RoE** containing:

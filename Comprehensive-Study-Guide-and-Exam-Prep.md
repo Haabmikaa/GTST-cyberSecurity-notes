@@ -17,7 +17,7 @@ This companion reference condenses core concepts across the 8-day curriculum int
   3. *Gaining Access:* Exploiting vulnerabilities to achieve initial foothold.
   4. *Maintaining Access:* Establishing persistence (backdoors, cron jobs) and horizontal/vertical privilege escalation.
   5. *Clearing Tracks:* Anti-forensics (log scrubbing, timestomping).
-* **Rules of Engagement (RoE):** The legal contract that grants explicit authorization, defines scope (IPs/domains), excluded assets, testing windows, and legal safe harbor.
+* **Rules of Engagement (RoE) & Legal Frameworks:** The legal contract granting explicit authorization, defining scope, excluded assets, testing windows, and legal safe harbor. Key statutes include the US **CFAA (18 U.S.C. § 1030)**, EU **GDPR**, and Ethiopia's **Computer Crime Proclamation No. 958/2016** (Articles 3–6 penalizing illegal access, interception, interference, and critical infrastructure attacks up to 15 years imprisonment, enforced alongside INSA).
 
 ---
 
@@ -145,3 +145,4 @@ This companion reference condenses core concepts across the 8-day curriculum int
   • Certified Red Team Operator (CRTO)
   • Certified Information Systems Security Professional (CISSP - Architecture & Governance)
 ```
+
