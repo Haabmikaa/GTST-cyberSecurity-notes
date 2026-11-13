@@ -1,16 +1,4 @@
-# Day 05: Filesystem Hierarchy Standard (FHS), Modal Editors & User Management Foundations
-
----
-
-## 📌 Executive Course Overview & Learning Objectives
-To an adversary or incident responder, the filesystem is a crime scene or an attack surface. Understanding the precise architectural location of credentials, temporary storage, device nodes, and virtual kernel interfaces is paramount.
-
-By the end of this module, you will be able to:
-1. Navigate and explain every branch of the **Filesystem Hierarchy Standard (FHS)**.
-2. Interrogate the virtual pseudofilesystems (`/proc` and `/sys`) to extract runtime kernel and process intelligence.
-3. Master modal text editing in **VIM** and non-modal editing in **NANO**.
-4. Dissect the structure of Linux identity databases (`/etc/passwd`, `/etc/shadow`, `/etc/group`).
-5. Provision, modify, and retire user accounts using `useradd`, `usermod`, `userdel`, and `passwd`.
+# Day 05: Filesystem Hierarchy Standard (FHS), Text Editors & User Management
 
 ---
 
@@ -236,7 +224,7 @@ sudo userdel -r john
 
 ---
 
-## 💡 Professor's Laboratory Challenge: Day 5
+## Hands-on Lab: Service Account Provisioning & Audit
 **Objective:** User Provisioning and Audit Lab.
 1. Create a service account named `audit_sec` with UID `1500`, disabled login shell (`/usr/sbin/nologin`), and home directory `/var/audit`.
 2. Inspect the newly created line in `/etc/passwd`.

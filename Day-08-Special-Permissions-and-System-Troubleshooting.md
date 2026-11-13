@@ -1,17 +1,4 @@
-# Day 08: Special Permissions, Advanced Packaging & Troubleshooting Masterclass
-
----
-
-## 📌 Executive Course Overview & Learning Objectives
-This capstone Linux security module explores the most consequential permission mechanisms in Unix history—**SUID**, **SGID**, and the **Sticky Bit**—along with advanced packaging formats, service automation, and low-level diagnostic tracing.
-
-By the end of this module, you will be able to:
-1. Deconstruct the mechanics, notation, and security risks of **SUID**, **SGID**, and the **Sticky Bit**.
-2. Audit systems for misconfigured SUID binaries and execute privilege escalation vectors using **GTFOBins**.
-3. Deploy modern portable application formats (**AppImage**, **Snap**, **Flatpak**, and **Docker**).
-4. Securely integrate third-party package repositories using modern **GPG Keyrings** (`signed-by`).
-5. Elevate scripts to resilient system daemons via **Systemd Units** and **Cron**.
-6. Trace low-level system failures using **`strace`**, **`ldd`**, **`journalctl`**, and **`dmesg`**.
+# Day 08: Special Permissions, Packaging & System Diagnostics
 
 ---
 
@@ -242,7 +229,7 @@ strace -e openat,access custom_binary
 
 ---
 
-## 💡 Professor's Laboratory Challenge: Day 8
+## Hands-on Lab: SUID Audit & Remediation
 **Objective:** SUID Security Audit & Remediation Lab.
 1. Find all SUID binaries on your machine owned by `root`.
 2. Inspect the output to verify whether any non-standard or dangerous binaries (e.g., `nmap`, `vim`, `find`, `python`, `cp`) possess SUID privileges.

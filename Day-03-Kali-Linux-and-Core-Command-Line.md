@@ -1,17 +1,4 @@
-# Day 03: Kali Linux Architecture & Core Command-Line Mastery
-
----
-
-## 📌 Executive Course Overview & Learning Objectives
-Kali Linux is the industry-standard offensive Swiss Army knife, maintained and funded by Offensive Security (OffSec). Mastery over Kali and the Linux command line is non-negotiable for penetration testers, security engineers, and incident responders.
-
-By the end of this module, you will be able to:
-1. Deconstruct the lineage, architecture, and security design principles of **Kali Linux**.
-2. Deploy Kali across bare-metal, virtualization (Type 1 & 2), containerized environments, and cloud instances.
-3. Master directory navigation, filesystem inspection, and manipulation commands.
-4. Harness **Standard Streams (STDIN, STDOUT, STDERR)** and redirection mechanics.
-5. Construct multi-stage CLI data pipelines using UNIX pipes (`|`) and filters (`grep`, `cut`, `tee`, `wc`).
-6. Locate files and binaries across system trees using `find`, `which`, and `locate`.
+# Day 03: Kali Linux & Core Command-Line Mastery
 
 ---
 
@@ -220,7 +207,7 @@ find / -perm -4000 -type f 2>/dev/null
 
 ---
 
-## 💡 Professor's Laboratory Challenge: Day 3
+## Hands-on Lab: User Triage Pipeline
 **Objective:** Execute the following triage pipeline on your system:
 1. Create a workspace: `mkdir -p ~/pentest_lab/day3 && cd ~/pentest_lab/day3`.
 2. Extract all system users whose login shell is `/bin/bash` from `/etc/passwd`.

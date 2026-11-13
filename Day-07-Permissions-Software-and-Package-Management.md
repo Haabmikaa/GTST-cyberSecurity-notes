@@ -1,17 +1,4 @@
-# Day 07: File Ownership, Permissions, Software & Script Installation
-
----
-
-## 📌 Executive Course Overview & Learning Objectives
-Linux security relies heavily on discretionary access controls (DAC) and strict package provenance. Misunderstood permissions or flawed package installations compromise system integrity and create pathways for exploitation.
-
-By the end of this module, you will be able to:
-1. Calculate, audit, and assign file permissions using **Symbolic** and **Octal** notation.
-2. Formulate **`umask`** calculations to enforce secure default file creation policies.
-3. Manage software lifecycles using high-level (`apt`) and low-level (`dpkg`) package managers.
-4. Execute and deploy custom Bash/Python security scripts into the system `$PATH`.
-5. Compile software binaries from source code (`configure`, `make`, `make install`).
-6. Diagnose and resolve critical package management failures (dpkg lock conflicts, missing dependencies).
+# Day 07: File Ownership, Permissions & Software Installation
 
 ---
 
@@ -251,7 +238,7 @@ deactivate
 
 ---
 
-## 💡 Professor's Laboratory Challenge: Day 7
+## Hands-on Lab: Deploying & Securing a Script
 **Objective:** Deploy and secure a custom reconnaissance script.
 1. Create a script at `/opt/ping_sweep.sh` that takes an IP subnet prefix (e.g., `192.168.1`) as an argument and pings hosts 1 through 5.
 2. Set permissions so that **only root** can edit the script, but members of the **secops** group can read and execute it. Others must have zero permissions.

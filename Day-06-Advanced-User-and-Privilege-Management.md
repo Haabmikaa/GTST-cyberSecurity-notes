@@ -1,17 +1,4 @@
-# Day 06: Advanced User Identity, Sudoers Architecture & PAM Mechanics
-
----
-
-## 📌 Executive Course Overview & Learning Objectives
-Improper identity and privilege configuration is one of the most prolific causes of privilege escalation in modern enterprise Linux infrastructure. 
-
-By the end of this module, you will be able to:
-1. Architect primary and supplementary **Group Security Models**.
-2. Enforce enterprise password aging policies via **`/etc/login.defs`** and **`chage`**.
-3. Deconstruct the difference between `su`, `su -`, and `sudo` environments.
-4. Author granular access control rules inside **`/etc/sudoers`** using **`visudo`**.
-5. Identify and exploit sudo misconfigurations (GTFOBins, `NOPASSWD`, and `LD_PRELOAD`).
-6. Unpack the architecture of **PAM (Pluggable Authentication Modules)** and its security pipeline.
+# Day 06: Advanced User Identity, Sudoers & PAM
 
 ---
 
@@ -243,7 +230,7 @@ sudo LD_PRELOAD=/tmp/exploit.so /usr/bin/any_allowed_cmd
 
 ---
 
-## 💡 Professor's Laboratory Challenge: Day 6
+## Hands-on Lab: Sudoers Audit & PAM Inspection
 **Objective:** Sudoers Sandboxing & Privilege Audit.
 1. Check what sudo privileges your current user possesses via `sudo -l`.
 2. Inspect the PAM configuration for `su` by reading `/etc/pam.d/su`.

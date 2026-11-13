@@ -1,17 +1,4 @@
-# Day 04: Advanced Linux CLI, Process Architecture & System Triage
-
----
-
-## 📌 Executive Course Overview & Learning Objectives
-Advanced command-line proficiency separates script execution from authentic systems auditing and incident response. In live cyber incidents and red-team engagements, you frequently operate in a constrained headless terminal without GUI luxuries.
-
-By the end of this module, you will be able to:
-1. Audit, monitor, and manipulate running processes, signals, and background jobs.
-2. Inspect network interfaces, routing tables, and listening sockets using `ip` and `ss`.
-3. Construct parsing pipelines using stream manipulation tools (`awk`, `sed`, `cut`, `sort`, `uniq`, `xargs`).
-4. Transfer and compress archives using `tar`, `gzip`, and remote transfer protocols.
-5. Perform live system resource and memory triage (`free`, `df`, `du`).
-6. Apply command-line triage tactics during active intrusion investigations.
+# Day 04: Advanced Linux CLI & System Triage
 
 ---
 
@@ -222,7 +209,7 @@ free -m -h
 
 ---
 
-## 💡 Professor's Laboratory Challenge: Day 4
+## Hands-on Lab: Listening Socket Audit
 **Objective:** Threat Hunting Scenario.
 A server is suspected of hosting an unauthorized rogue listener or web shell. Run a one-line pipeline that:
 1. Audits all listening TCP sockets with their associated process names.

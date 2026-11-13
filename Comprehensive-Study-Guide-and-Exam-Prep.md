@@ -1,13 +1,8 @@
-# 🎓 Cyber Security & Linux Foundations: Comprehensive Study Guide & Exam Prep
+# Cyber Security & Linux: Study Guide & Review
 
 ---
 
-## 📌 How to Use This Study Guide
-This companion reference condenses core concepts across the 8-day curriculum into **High-Yield Terminology**, **Technical Interview Questions**, and **Practical Scenario Drills** designed for certification preparation (CompTIA Security+, Linux+, CEH, and OSCP foundations).
-
----
-
-## 🧠 Part 1: High-Yield Architectural Review
+## 1. Core Review Notes
 
 ### 1. Security Axioms & Legal Boundaries (Day 01)
 * **CIA Triad & Extended Attributes:** Confidentiality (secrecy), Integrity (trust/accuracy), Availability (uptime). Extended: Authenticity (genuine source), Non-Repudiation (undeniable action via asymmetric signatures).

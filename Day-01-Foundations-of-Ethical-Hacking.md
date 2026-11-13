@@ -2,19 +2,6 @@
 
 ---
 
-## 📌 Executive Course Overview & Learning Objectives
-Welcome to Day 1 of the Cyber Security curriculum. This module establishes the conceptual, legal, and operational bedrock of offensive and defensive security. 
-
-By the end of this module, you will be able to:
-1. Deconstruct the philosophical and functional boundaries of **Ethical Hacking**.
-2. Classify threat actors and adversaries across motivation, capability, and authorization.
-3. Formulate threat models using the expanded **CIA Triad** and AAA security architecture.
-4. Chart the canonical **5 Phases of Penetration Testing** from passive intelligence gathering to post-exploitation forensics.
-5. Contrast penetration testing methodologies (Black, White, and Grey Box) against compliance standards (PTES, NIST SP 800-115).
-6. Map professional cybersecurity career vectors and operational ethics under international cyber statutes.
-
----
-
 ## 1. Introduction to Ethical Hacking
 
 ### 1.1 The Definition & Core Mandate
@@ -232,7 +219,7 @@ Before firing a single ping packet against a target client, an ethical hacker mu
 
 ---
 
-## 💡 Professor's Laboratory Challenge: Day 1
+## Hands-on Lab: Rules of Engagement (RoE) Template
 **Objective:** Research and draft your own personal 1-page **Rules of Engagement (RoE)** template for an imaginary corporate client ("InnoTech Financial"). Include:
 - Scope definitions (Target: `192.168.10.0/24`, `*.innotech.local`)
 - Excluded systems (Production Billing server `192.168.10.50`)

@@ -2,19 +2,6 @@
 
 ---
 
-## 📌 Executive Course Overview & Learning Objectives
-Operating systems are the foundational platform upon which cyber warfare, digital forensics, and cloud infrastructure operate. Over 90% of global public cloud workloads and virtually all offensive penetration testing platforms run on the Linux kernel. 
-
-By the end of this module, you will be able to:
-1. Explain the fundamental components and responsibilities of an **Operating System (OS)**.
-2. Unpack the historical lineage from **UNIX** and the **GNU Project** to Linus Torvalds' kernel.
-3. Dissect the **Linux Kernel Architecture**, ring protection models, and system call (`syscall`) mechanics.
-4. Differentiate between monolithic, microkernel, and hybrid kernel designs.
-5. Deconstruct the **Shell**, contrasting terminal emulators, shells, and consoles across POSIX standards.
-6. Evaluate major **Linux Distributions** and their package ecosystems for production and offensive use cases.
-
----
-
 ## 1. What is an Operating System (OS)?
 
 An **Operating System** is the core system software that acts as an intermediary between computer hardware and user application software. Without an OS, every program would have to implement its own drivers, CPU schedule algorithms, memory controllers, and network stacks.
@@ -201,7 +188,7 @@ A **Linux Distribution** is an operating system constructed from the Linux kerne
 
 ---
 
-## 💡 Professor's Laboratory Challenge: Day 2
+## Hands-on Lab: System Architecture Inspection
 **Objective:** Run the following commands on a Linux machine or VM and document your system architecture:
 ```bash
 # 1. Print kernel release, architecture, and hostname
